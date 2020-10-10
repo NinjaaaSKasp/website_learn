@@ -1,0 +1,57 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background-color: orange;
+}
+
+footer {
+    background-color: greenyellow;
+}
+
+.nav-container {
+    text-decoration: none;
+    background-color: coral;
+    color: darkkhaki;
+}
+
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+ul {
+    display: inline-block;
+}
+
+article {
+    float: none;
+}
+
+aside.left {
+    background-color: aquamarine;
+    width: 20%;
+    float: left;
+
+}
+
+aside.right {
+    background-color: aquamarine;
+    width: 20%;
+    float: right;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
